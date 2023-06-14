@@ -66,7 +66,7 @@ def setlogger(log_file):
 
     return logger
 
-
+//
 def text_input_adjust(text_input, fake_word_pos, device):
     # input_ids adaptation
     input_ids_remove_SEP = [x[:-1] for x in text_input.input_ids]
